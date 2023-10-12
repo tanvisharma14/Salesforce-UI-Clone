@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+}
+
+.topnav {
+    overflow: hidden;
+}
+
+.topnav i{
+    font-size: 20px;
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav input[type=text]{
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+
+table td{
+    border: 1px solid gray;
+}
+
+#quoteInfo td{
+    color: blue;
+}
+
+#details th{
+    font-size: smaller;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    background-color: DodgerBlue;
+}
+
+.flex-container div{
+    background-color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.flexNav a{
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+}
+  
+.flexNav a:hover{
+    background-color: #ddd;
+}
+  
+.flexNav a.active{
+    background-color:cadetblue;
+    color: white;
+    text-decoration: underline;
+}
+
+#inputTable tr td{
+    border-top-color: white;
+    border-bottom-color: grey;
+    border-right-color: white;
+}
+
+#inputTable i{
+    margin-left: 5%;
+}
+
+#inputTable input{
+    border: none;
+}
+
+.flexNav2 a{
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    margin-right: 9%;
+}
+  
+.flexNav2 a:hover{
+    background-color: #ddd;
+}
+  
+.flexNav2 a.active{
+    background-color:cadetblue;
+    color: white;
+    text-decoration: underline;
+}

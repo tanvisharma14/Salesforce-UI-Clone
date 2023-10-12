@@ -1,0 +1,128 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="salesf.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+
+    <body>
+        <div class="topnav">
+            <i class="fa fa-cloud" style="margin-right: 37%;"></i>
+            <i class="fa fa-plus"></i>
+            <i class="fa fa-question"></i>
+            <i class="fa fa-gear"></i>
+            <i class="fa fa-bell"></i>
+            <i class="fa fa-user" style="margin-right: 9%;"></i>
+            <div class="form-group has-search">
+                <span class="fa fa-search form-control-feedback" style="font-size: 15px;"></span>
+                <input type="text" class="form-control" placeholder="Search Salesforce" style="width: 30%; border: 1px solid;">
+            </div>
+        </div>
+        <table class="table">
+            <tr>
+                <td style="width: 12%;"><i class="fa fa-bars">&nbsp; &nbsp; Service Console</i></td>
+                <td style="width: 8%;">Cases</td>
+                <td style="width: 2%;"><i class="fa fa-angle-down"></i></td>
+                <td style="width: 12%;">Andy Young</td>
+                <td style="width: 12%;"><i class="fa fa-lock"> 0001016</i> &nbsp; &nbsp; &nbsp;<i class="fa fa-angle-down"></i>&nbsp;<i class="fa fa-close"></i></td>
+                <td class="bg-primary" style="width: 12%;"><i class="fa fa-lock"> 0001023</i>&nbsp; &nbsp; &nbsp;<i class="fa fa-angle-down"></i>&nbsp;<i class="fa fa-close"></i></td>
+                <td style="width: 12%;"><i class="fa fa-lock"> 0001026</i>&nbsp; &nbsp; &nbsp;<i class="fa fa-angle-down"></i>&nbsp;<i class="fa fa-close"></i></td>
+                <td></td>
+            </tr>
+        </table>
+        <table class="table" id="quoteInfo">
+            <tr>
+                <td style="color: black; width: 55%; font-size: larger; background-color: lightblue;"><i class="fa fa-address-book" style="color: black;"></i>&nbsp;&nbsp;&nbsp;0001023</td>
+                <td style="width: 8%;"><i class="fa fa-plus" style="color: blue;"></i>&nbsp; &nbsp; Follow</td>
+                <td style="width: 8%;">Send Email</td>
+                <td style="width: 5%;">Edit</td>
+                <td style="width: 8%;">New Case</td>
+                <td style="width: 2%;"><i class="fa fa-angle-down"></i></td>
+            </tr>
+        </table>
+        <table class="table" id="details">
+            <tr>
+                <th>Title</th>
+                <th>Account Name</th>
+                <th>Phone(2)<i class="fa fa-angle-down"></i></th>
+                <th>Email</th>
+                <th>Contact Owner</th>
+            </tr>
+            <tr>
+                <td>SVP Operations</td>
+                <td>Express Logistics and Transport</td>
+                <td>(503)421-7800</td>
+                <td>b.levy@expressl&t.net</td>
+                <td><i class="fa fa-female"></i>&nbsp;Maria Jime</td>
+            </tr>
+        </table>
+        <div class="flex-container">
+            <div class="flexNav" style="width: 60%;">
+                <a href="" class="active" >Details</a>
+                <a href="" >Highlights</a>
+                <a href="" >Contacts</a>
+                <a href="" >Sales</a>
+                <a href="" >Service</a>
+                <a href="" >Marketing</a>
+                <a href="" >Integrations</a>
+                <hr style="width: 100%; color: black;">
+                <table class="table" id="inputTable">
+                    <tr>
+                        <td>Account Name</td>
+                        <td><input type="text" placeholder="Sereneva Systems"><i class="fa fa-pencil"></i></td>
+                        <td>Website</td>
+                        <td><input type="text" placeholder="www.sereneva.com"><i class="fa fa-pencil"></i></td>
+                    </tr>
+                    <tr>
+                        <td>Parent Account</td>
+                        <td><input type="text"><i class="fa fa-pencil"></i></td>
+                        <td>Phone</td>
+                        <td><input type="text" placeholder="+1(503)555-0404"><i class="fa fa-pencil"></i></td>
+                    </tr>
+                    <tr>
+                        <td>Description</td>
+                        <td><input type="text" placeholder="Sereneva leverages existing resources to develop catalysts"><i class="fa fa-pencil"></i></td>
+                    </tr>
+                </table>
+                <p><i class="fa fa-angle-down"> &nbsp;Segmentation</i></p>
+                <table class="table" id="inputTable">
+                    <tr>
+                        <td>Type</td>
+                        <td><input type="text" placeholder="Customer"><i class="fa fa-pencil"></i></td>
+                        <td>Employees</td>
+                        <td><input type="text" placeholder="43"><i class="fa fa-pencil"></i></td>
+                    </tr>
+                    <tr>
+                        <td>Industry</td>
+                        <td><input type="text" placeholder="Environmental"><i class="fa fa-pencil"></i></td>
+                        <td>Annual Revenue</td>
+                        <td><input type="text" placeholder="$6,700,000"><i class="fa fa-pencil"></i></td>
+                    </tr>
+                    <tr>
+                        <td>Custom Field</td>
+                        <td><input type="text"><i class="fa fa-pencil"></i></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="flexNav2" style="width: 40%;">
+                <a href="" class="active" >Activity</a>
+                <a href="" >Map</a>
+                <a href="" >Chatter</a>
+                <a href="" >Einstein</a>
+                <img src="D:\Web Dev Practices\images\ColoredContactLenses.png" alt="Image here" style="height: 17%;">
+                <table class="table" id="flexNav2Table" style="margin-top: 30px;">
+                    <tr>
+                        <td style="background-color: white; color: blue; width: 30%; border-bottom-color: white; text-align: center;">Log A Call</td>
+                        <td style="background-color: grey; color: black; width: 70%;"><input type="text" placeholder="New Task" </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: white; border-right-color: white;" colspan="2;"><input type="text" placeholder="Recap Your Call" style="width: 90%; border: none;"</td>
+                        <td style="background-color: white; width: 10%;"><button type="button" class="btn btn-primary">Add</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
